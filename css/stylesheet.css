@@ -1,0 +1,246 @@
+/*Fonts*/
+@import url(https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Righteous|Underdog);
+@font-face
+{
+	src : url(fonts/GloriaHallelujah);
+	src : url(fonts/Righteous-Regular);
+	src : url(fonts/Underdog-Regular);
+}
+Header
+{
+	text-align:center;
+	background-color:#444444;
+	font-family:Arial; font-size:80px;
+	font-family:Arial; font-size:63px;
+	font-family:Arial; font-size:35px;
+	font-family:Arial; font-size:30px;
+	font-family:Arial; font-size:30px; font-weight:bold;
+	font-family:Arial; font-size:30px;
+	font-family:Arial; font-size:25px;
+	font-family:Arial; font-size:15px;
+	font-family:Gloria Hallelujah, Righteous, Underdog, Arial; 
+}
+/*voor de tekst in article*/
+article
+{
+	margin:100px;
+	padding:50px;
+	margin-bottom:0px;
+	margin-top:0px;
+	background-color:#F5F5F5;
+	border-style:solid;
+	text-align:center;
+	font-family: Righteous, Gloria, Hallelujah, Underdog, Arial; 
+}
+.footer
+{
+	margin:100px;
+	margin-top:5px;
+	margin-bottom:3px;
+}
+.section
+{
+	
+	margin:200px;
+	padding:50px;
+	margin-bottom:0px;
+	margin-top:200px;
+	background-color:#2699FB;
+	border-style:solid;
+	text-align:center;
+}
+#titel
+{
+	text-align: left;
+	float:left;		
+}	
+/* voor de Pay-off tekst*/
+#payoff
+{
+	text-align: left;
+	clear:both;
+}
+.nav
+{
+
+	float:left;
+	margin-left:30px;
+	margin-right:30px;
+	 font-family:Underdog,Gloria,Hallelujah,Arial;
+}	
+nav
+{
+	background-color:#FFFFFF;
+	border-style:solid;
+	border-width:5px;
+	padding:20px;
+	font-size:1em;
+}
+h2
+{
+	color:#AAAAAA;
+	text-align:center;
+	font-size:2em;
+}
+h1
+{
+	color:#000000;
+	font-size:3em;
+}
+/*Voor alle footers in die staan in een article*/
+footer
+{
+	background-color:#707070;
+}
+/*classes voor de foto's*/
+.web
+{
+	width:250px;
+	height:200px;
+}
+.tablet
+{
+	width:175px;
+	height:120px;
+}
+.tel
+{
+	width:50px;
+	height:100px;
+}
+/*Tag zodat bezoekers hun ei kwijt kunnen*/
+textarea
+{
+	height:200px;
+	width:300px;
+}
+/*De laatste footer avn de website*/
+#footer
+{
+	margin:200px;
+	margin-top:50px;
+	margin-bottom:3px;
+}
+/*cookie statement links onder */
+#cookie
+{
+	position:fixed;
+	z-index:0;
+	right:0;
+	bottom:0;
+	background-color:#7CFC00;
+}
+/*Video op achtergrond laten afspelen*/
+#video
+{
+	position : fixed;
+	min-width : 100%;
+	min-height : 100%;
+	z-index : -1;
+	right : 0;
+	bottom : 0;
+}
+@media screen and (min-width : 960px)
+{
+	body
+	{
+		width:100%;
+	}
+	.tablet, .tel
+	{
+		display:none;
+	}
+}
+@media screen and (min-width : 400px) and (max-width : 959px)
+{
+	body
+	{
+		width:100%;
+		font-size:65%;
+	} 
+	.web, .tel
+	{
+		display:none;
+	}
+	header
+	{
+		margin:10px;
+	}
+	article
+	{
+		margin:20px;
+		padding:10px;
+		margin-bottom:0px;
+		margin-top:0px;
+		background-color:#F5F5F5;
+		border-style:solid;
+		text-align:center;
+		font-family: Righteous, Gloria, Hallelujah, Underdog, Arial; 
+	}
+	.section
+	{
+		margin:20px;
+		padding:5px;
+		margin-bottom:0px;
+		margin-top:20px;
+	}
+	.nav
+	{
+		font-size:1em;
+		margin-left:0.5em;	
+	}
+	#footer
+	{
+	width:300px;
+	}
+}
+@media screen and (max-width : 399px)
+{
+	body
+	{
+		width:100%;
+		font-size:45%;
+		margin:auto;
+	}
+	.web, .tablet
+	{
+		display:none;
+	}
+	.section
+	{
+		margin:50px;
+		padding:10px;
+		margin-bottom:0px;
+		margin-top:20px;
+	}
+	article
+	{
+		margin:10px;
+		padding:20px;
+		margin-bottom:0px;
+		margin-top:0px;
+		background-color:#F5F5F5;
+		border-style:solid;
+		text-align:center;
+		font-family: Righteous, Gloria, Hallelujah, Underdog, Arial; 
+	}
+	textarea
+	{
+		height:80px;
+		width:100px;
+	}
+	.nav
+	{
+		font-size:1em;
+		margin-left:0.5em;	
+	}
+	#footer
+	{
+		width:100px;
+		text-align:center;
+	}
+}
+	
+		
+	
+	
